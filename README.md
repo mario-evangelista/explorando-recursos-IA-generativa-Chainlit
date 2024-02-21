@@ -1,46 +1,40 @@
-**README.md**
+# README
 
-# Python Chainlit Chatbot
+Este é um exemplo de um bot simples em Python usando a biblioteca `chainlit` para interagir com o Discord. Este bot verifica mensagens recebidas e responde de acordo com o conteúdo da mensagem.
 
-This is a simple Python chatbot created using Chainlit, a library for building chatbots.
+## Funcionalidades
 
-## Usage
+- Quando uma mensagem é recebida, o bot verifica se a palavra "python" está presente no conteúdo da mensagem, ignorando maiúsculas e minúsculas.
+- Se a palavra "python" estiver presente, o bot responde com "Parabéns, você está aprendendo uma boa linguagem!".
+- Caso contrário, o bot responde com "Já pensou em aprender Python?".
 
-To use this chatbot, follow the instructions below:
+## Requisitos
 
-1. Clone this repository to your local machine.
+- Python 3.6 ou superior
+- Biblioteca `chainlit`
 
-2. Install Chainlit by running the following command in your terminal:
-   ```
-   pip install chainlit
-   ```
+## Como executar
 
-3. Run the chatbot script using the following command:
-   ```
-   chainlit run main.py
-   ```
+1. Instale a biblioteca `chainlit` via pip:
 
-4. Interact with the chatbot by sending messages. It will respond based on whether the message contains the word "python" or not.
-
-## Example
-
-- If the message contains the word "python", the bot will respond with:
-  ```
-  Parabéns, você está aprendendo uma boa linguagem!
-  ```
-
-- If the message does not contain the word "python", the bot will respond with:
-  ```
-  Já pensou em aprender Python?
-  ```
-
-## Additional Commands
-
-Additionally, you can test the chatbot by using the following command:
+```bash
+pip install chainlit
 ```
+
+2. Execute o arquivo `main.py` usando `chainlit`:
+
+```bash
+chainlit run main.py
+```
+
+3. Após o bot estar em execução, você pode interagir com ele no Discord, e ele responderá de acordo com a lógica definida.
+
+## Comandos úteis
+
+- Para testar se o bot está online, você pode usar o comando:
+
+```bash
 chainlit hello
 ```
 
-This command will prompt the chatbot to respond with a greeting message.
-
-Feel free to explore and modify the code to customize the chatbot according to your preferences!
+Este bot é apenas um exemplo básico. Sinta-se à vontade para personalizá-lo e adicionar mais funcionalidades conforme necessário!
