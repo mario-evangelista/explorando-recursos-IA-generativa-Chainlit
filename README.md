@@ -40,5 +40,6 @@ chainlit hello
 <div align="center">
 <img src="https://github.com/mario-evangelista/explorando-recursos-IA-generativa-Chainlit/assets/121322767/fd608692-f1ed-44e4-8e19-d889dc882709" width="700px" />
 </div>
+<br>
 
 Este bot é apenas um exemplo básico. Sinta-se à vontade para personalizá-lo e adicionar mais funcionalidades conforme necessário!
