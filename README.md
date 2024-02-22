@@ -1,4 +1,4 @@
-# README
+## Explorando Recursos de IA Generativa com Chainlit
 
 Este é um exemplo de um bot simples em Python usando a biblioteca `chainlit` para interagir com o Discord. Este bot verifica mensagens recebidas e responde de acordo com o conteúdo da mensagem.
 
